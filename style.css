@@ -1,0 +1,21 @@
+
+body{
+  margin:0;
+  font-family:'Noto Serif TC','標楷體',serif;
+  background:linear-gradient(135deg,#B8C9A8,#A8BCA5,#D4E7D1,#F8F9F7);
+}
+header{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(6px);
+  display:flex;justify-content:space-between;align-items:center;padding:14px 18px;z-index:10}
+.brand h1{margin:0}
+.dash{border-bottom:2px dashed rgba(0,0,0,.3);width:140px;margin:6px 0}
+nav{display:flex;gap:14px;overflow-x:auto;padding:10px 18px;background:rgba(255,255,255,.6)}
+nav a{white-space:nowrap;text-decoration:none;color:#2f3f36}
+nav a.active{font-weight:700}
+main{padding:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+.card{background:#fff;border-radius:14px;padding:12px;box-shadow:0 6px 16px rgba(0,0,0,.08)}
+.card img{width:100%;border-radius:10px}
+.price{font-weight:700;margin:6px 0}
+button{background:#3f5f4f;color:#fff;border:none;border-radius:20px;padding:8px 14px;cursor:pointer}
+footer{background:#2f3f36;color:#fff;padding:18px;text-align:center;margin-top:40px}
+.cart-row{display:flex;justify-content:space-between;margin:6px 0}
